@@ -6,4 +6,4 @@ fq = [.01 .013 .014];
 % Complex signal
 sig = exp(2*j*pi*tims' * fq);
 
-plot(tims, real(sig(:,1)));
+plot(tims, real(sig(:,2)));
