@@ -1,4 +1,5 @@
-%
+% Avoiding Loops
+% The loop can be writen in a single line 
 a = randn(400);
 for k = 1:400
   for m=1:400
